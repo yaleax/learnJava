@@ -12,5 +12,6 @@ public class Demo03 {
         System.out.println(a > b);
         System.out.println(a < b);
         System.out.println(a == d);
+        System.out.println(c%b);
     }
 }
