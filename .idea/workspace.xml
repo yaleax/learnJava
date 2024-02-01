@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aee8be9-1fa5-4636-a1b3-2d772d71fdab" name="Changes" comment="day2">
-      <change afterPath="$PROJECT_DIR$/Basic/src/operator/Demo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/operator/Demo05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/operator/Demo06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/operator/Demo07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/operator/Demo08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/suan/basic/Operator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/suan/hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/suan/operator/Hello.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic/src/operator/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/operator/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/base/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/basic/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/base/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/basic/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/base/Operator1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/base/binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/basic/binary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/operator/Demo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/operator/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/operator/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/operator/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/operator/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/operator/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/operator/Demo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/operator/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/operator/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/operator/Demo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/operator/Demo06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/operator/Demo07.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/operator/Demo07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/operator/Demo08.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/operator/Demo08.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706675310580</updated>
       <workItem from="1706675311604" duration="8921000" />
-      <workItem from="1706756419864" duration="5705000" />
+      <workItem from="1706756419864" duration="7456000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -108,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706756436966</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day2">
+      <option name="closed" value="true" />
+      <created>1706768143890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706768143890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +152,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Basic/src/base/binary.java</url>
+          <url>file://$PROJECT_DIR$/Basic/src/com/suan/basic/binary.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

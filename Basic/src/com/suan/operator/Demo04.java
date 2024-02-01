@@ -1,4 +1,4 @@
-package operator;
+package com.suan.operator;
 public class Demo04 {
     public static void main(String[] args) {
         int a = 3;

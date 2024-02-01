@@ -1,4 +1,4 @@
-package base;
+package com.suan.basic;
 
 public class HelloWorld {
     public static void main(String[] args) {
