@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aee8be9-1fa5-4636-a1b3-2d772d71fdab" name="Changes" comment="ForEnhance">
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/suan/sequences/BreakDemo.java" afterDir="false" />
+    <list default="true" id="1aee8be9-1fa5-4636-a1b3-2d772d71fdab" name="Changes" comment="Break">
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/suan/sequences/TestDemo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
     "Application.Demo08.executor": "Run",
     "Application.ForDemo04.executor": "Run",
     "Application.ForDemo05.executor": "Run",
+    "Application.TestDemo01.executor": "Run",
     "Application.WhileDemo01.executor": "Run",
     "Application.binary.executor": "Run",
     "Application.com.suan.sequences.Demo01.executor": "Run",
@@ -70,7 +71,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BreakDemo">
+  <component name="RunManager" selected="Application.TestDemo01">
     <configuration name="BreakDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.suan.sequences.BreakDemo" />
       <module name="Basic" />
@@ -110,6 +111,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suan.sequences.TestDemo01" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suan.sequences.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WhileDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.suan.sequences.WhileDemo01" />
       <module name="Basic" />
@@ -123,26 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.suan.sequences.Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suan.sequences.Demo04" />
-      <module name="Basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.suan.sequences.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDemo01" />
         <item itemvalue="Application.BreakDemo" />
         <item itemvalue="Application.ForDemo05" />
         <item itemvalue="Application.WhileDemo01" />
         <item itemvalue="Application.ForDemo04" />
-        <item itemvalue="Application.com.suan.sequences.Demo04" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,8 @@
       <workItem from="1706831158580" duration="4553000" />
       <workItem from="1706852126988" duration="7553000" />
       <workItem from="1708415039209" duration="264000" />
-      <workItem from="1708415318787" duration="4097000" />
+      <workItem from="1708415318787" duration="4584000" />
+      <workItem from="1708499870973" duration="4130000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -240,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708419639706</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Break">
+      <option name="closed" value="true" />
+      <created>1708420384100</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708420384100</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +274,18 @@
     <MESSAGE value="for" />
     <MESSAGE value="9 * 9" />
     <MESSAGE value="ForEnhance" />
-    <option name="LAST_COMMIT_MESSAGE" value="ForEnhance" />
+    <MESSAGE value="Break" />
+    <option name="LAST_COMMIT_MESSAGE" value="Break" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Basic/src/com/suan/sequences/TestDemo01.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
