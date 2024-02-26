@@ -9,43 +9,50 @@ public class Demo08 {
         arrays[2][3] = 2;
         arrays[2][4] = 1;
 
-
         for (int[] array : arrays) {
             for (int arr : array) {
                 System.out.print(arr + "\t");
             }
             System.out.println(" ");
         }
-        int count = 0;
+
+        int value= 0;
         for (int[] array : arrays) {
             for (int i : array) {
-                if (i >0){
-                    count ++;
+                if (i != 0){
+                    value ++;
                 }
             }
         }
-        System.out.println(count);
-        int [][] spareArray = new int[count+1][3];
+
+        System.out.println(value);
+
+        int [][] spareArray = new int[value+1][3];
         spareArray[0][0] = 11;
         spareArray[0][1] = 11;
-        spareArray[0][2] = count;
+        spareArray[0][2] = value;
 
-        for (int i = 0; i < spareArray.length; i++) {
-            for (int j = 0; j < spareArray[i].length; j++) {
+        int count = 0;
 
+        for (int i = 0; i < arrays.length; i++) {
+            for (int j = 0; j < arrays[i].length; j++) {
+                if (arrays[i][j] != 0){
+                    count ++;
+                    spareArray[count][0] = i;
+                    spareArray[count][1] = j;
+                    spareArray[count][2] = arrays[i][j];
+                }
             }
-
         }
-
-        }
-
         for (int[] ints : spareArray) {
             for (int anInt : ints) {
-                System.out.println(anInt);
+                System.out.print(anInt + "\t");
 
             }
+            System.out.println(" ");
 
         }
+        System.out.println("还原的二维数组：");
 
     }
 }

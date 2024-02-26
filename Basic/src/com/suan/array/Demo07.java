@@ -21,10 +21,7 @@ public class Demo07 {
                 if (ints1 != 0){
                     cout++;
                 }
-
-
             }
-
         }
 
         int[][] sparseArr = new int[cout+1][3];
