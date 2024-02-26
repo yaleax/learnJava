@@ -10,6 +10,8 @@ public class Demo05 {
         Arrays.sort(arr);
         System.out.println("排序后的数组：");
         printArray(arr);
+        Arrays.fill(arr,2,4,0);
+        printArray(arr);
     }
     public static void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
