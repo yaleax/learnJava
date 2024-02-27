@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aee8be9-1fa5-4636-a1b3-2d772d71fdab" name="Changes" comment="array">
+    <list default="true" id="1aee8be9-1fa5-4636-a1b3-2d772d71fdab" name="Changes" comment="sparseArray">
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/suan/array/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic/src/com/suan/array/Demo08.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/src/com/suan/array/Demo08.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,58 +34,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BreakDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo05.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo06.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo07.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo08.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForDemo03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForDemo04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForDemo05.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestDemo01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileDemo01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.binary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.suan.sequences.Demo01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.suan.sequences.Demo02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.suan.sequences.Demo04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.hello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/joey.qu/Downloads/learnJava&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BreakDemo.executor": "Run",
+    "Application.Demo01.executor": "Run",
+    "Application.Demo02.executor": "Run",
+    "Application.Demo03.executor": "Run",
+    "Application.Demo04.executor": "Run",
+    "Application.Demo05.executor": "Run",
+    "Application.Demo06.executor": "Run",
+    "Application.Demo07.executor": "Run",
+    "Application.Demo08.executor": "Run",
+    "Application.ForDemo03.executor": "Run",
+    "Application.ForDemo04.executor": "Run",
+    "Application.ForDemo05.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestDemo01.executor": "Run",
+    "Application.WhileDemo01.executor": "Run",
+    "Application.binary.executor": "Run",
+    "Application.com.suan.sequences.Demo01.executor": "Run",
+    "Application.com.suan.sequences.Demo02.executor": "Run",
+    "Application.com.suan.sequences.Demo04.executor": "Run",
+    "Application.hello.executor": "Run",
+    "Application.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/joey.qu/Downloads/learnJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Demo08">
-    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suan.array.Demo03" />
-      <module name="Basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.suan.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Demo05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.suan.array.Demo05" />
       <module name="Basic" />
@@ -125,8 +113,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suan.array.Demo08" />
+    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suan.array.SparseArray" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suan.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suan.array.Test" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo08" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SparseArray" />
         <item itemvalue="Application.Demo07" />
         <item itemvalue="Application.Demo06" />
         <item itemvalue="Application.Demo05" />
-        <item itemvalue="Application.Demo03" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,7 @@
       <workItem from="1708932557805" duration="115000" />
       <workItem from="1708932679735" duration="2546000" />
       <workItem from="1708939053987" duration="3354000" />
-      <workItem from="1708995481821" duration="1127000" />
+      <workItem from="1708995481821" duration="6703000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -281,7 +282,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708908054766</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="sparseArray">
+      <option name="closed" value="true" />
+      <created>1708996688349</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708996688349</updated>
+    </task>
+    <task id="LOCAL-00015" summary="sparseArray">
+      <option name="closed" value="true" />
+      <created>1708996742566</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708996742566</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +326,8 @@
     <MESSAGE value="triangles" />
     <MESSAGE value="method" />
     <MESSAGE value="array" />
-    <option name="LAST_COMMIT_MESSAGE" value="array" />
+    <MESSAGE value="sparseArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="sparseArray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
