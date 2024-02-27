@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aee8be9-1fa5-4636-a1b3-2d772d71fdab" name="Changes" comment="sparseArray">
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/suan/array/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/demo01/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/demo01/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/demo01/Demo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/demo01/Demo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/demo01/Demo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/demo01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/demo02/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/demo02/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Application.executor": "Run",
     "Application.BreakDemo.executor": "Run",
     "Application.Demo01.executor": "Run",
     "Application.Demo02.executor": "Run",
@@ -73,13 +81,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Demo05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suan.array.Demo05" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oop.demo02.Application" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suan.array.*" />
+          <option name="PATTERN" value="com.oop.demo02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suan.array.Demo06" />
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oop.demo01.Demo01" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suan.array.*" />
+          <option name="PATTERN" value="com.oop.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suan.array.Demo07" />
+    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oop.demo01.Demo02" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suan.array.*" />
+          <option name="PATTERN" value="com.oop.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suan.array.SparseArray" />
+    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oop.demo01.Demo04" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suan.array.*" />
+          <option name="PATTERN" value="com.oop.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Demo02" />
+        <item itemvalue="Application.Demo04" />
+        <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SparseArray" />
-        <item itemvalue="Application.Demo07" />
-        <item itemvalue="Application.Demo06" />
-        <item itemvalue="Application.Demo05" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +185,7 @@
       <workItem from="1708932679735" duration="2546000" />
       <workItem from="1708939053987" duration="3354000" />
       <workItem from="1708995481821" duration="6703000" />
+      <workItem from="1709011955605" duration="6031000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
