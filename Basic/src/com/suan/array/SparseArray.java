@@ -1,8 +1,6 @@
 package com.suan.array;
 
-import java.util.Arrays;
-
-public class Demo08 {
+public class SparseArray {
     public static void main(String[] args) {
         System.out.println("原始二维数组：");
         int[][] arrays = new int[11][11];
