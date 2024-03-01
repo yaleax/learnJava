@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aee8be9-1fa5-4636-a1b3-2d772d71fdab" name="Changes" comment="class">
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Demo05/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Demo05/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Demo05/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Demo05/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Demo05/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Demo05/Num32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Demo05/notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +53,7 @@
     "Application.ForDemo04.executor": "Run",
     "Application.ForDemo05.executor": "Run",
     "Application.Mian.executor": "Run",
+    "Application.Num32.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestDemo01.executor": "Run",
     "Application.WhileDemo01.executor": "Run",
@@ -85,13 +82,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.oop.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oop.demo02.Application" />
+  <component name="RunManager" selected="Application.Num32">
+    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suan.array.Bubble" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oop.demo02.*" />
+          <option name="PATTERN" value="com.suan.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suan.array.Bubble" />
+    <configuration name="Num32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oop.Demo05.Num32" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suan.array.*" />
+          <option name="PATTERN" value="com.oop.Demo05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Num32" />
         <item itemvalue="Application.com.oop.Application" />
         <item itemvalue="Application.Bubble" />
         <item itemvalue="Application.com.oop.Demo04.Application" />
         <item itemvalue="Application.com.oop.Demo03.Application" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +186,7 @@
       <workItem from="1708932679735" duration="2546000" />
       <workItem from="1708939053987" duration="3354000" />
       <workItem from="1708995481821" duration="6703000" />
-      <workItem from="1709011955605" duration="27441000" />
+      <workItem from="1709011955605" duration="32709000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -327,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709175863481</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="class">
+      <option name="closed" value="true" />
+      <created>1709192943735</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709192943735</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +401,11 @@
           <url>file://$PROJECT_DIR$/Basic/src/com/suan/array/Demo06.java</url>
           <line>8</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Basic/src/com/oop/Demo05/Num32.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
