@@ -29,5 +29,16 @@ public class NumToBit {
 
         // 也可以调用带位数的方法，例如这里打印8的二进制表示的5位
         print(8, 5);
+        print(1);
+        print(1<<2);
+        int a = Integer.MAX_VALUE;
+        System.out.println(a);
+        print(a);
+
+        int c = Integer.MIN_VALUE;
+        int d = -c;
+        print(c);
+        print(~c + 1);
+        print(d);
     }
 }
