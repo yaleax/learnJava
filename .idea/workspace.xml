@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aee8be9-1fa5-4636-a1b3-2d772d71fdab" name="Changes" comment="class">
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Demo05/Num32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic/src/com/oop/Demo05/notes" afterDir="false" />
+    <list default="true" id="1aee8be9-1fa5-4636-a1b3-2d772d71fdab" name="Changes" comment="zuo">
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/zuo/PrintDecToBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/src/com/zuo/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/src/com/zuo/Demo03.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,9 +40,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.App.executor": "Run",
     "Application.Application.executor": "Run",
     "Application.BreakDemo.executor": "Run",
     "Application.BubblingSort.executor": "Run",
+    "Application.DecimalToBit.executor": "Run",
     "Application.Demo01.executor": "Run",
     "Application.Demo02.executor": "Run",
     "Application.Demo03.executor": "Run",
@@ -52,8 +56,13 @@
     "Application.ForDemo03.executor": "Run",
     "Application.ForDemo04.executor": "Run",
     "Application.ForDemo05.executor": "Run",
+    "Application.Mesom.executor": "Run",
     "Application.Mian.executor": "Run",
     "Application.Num32.executor": "Run",
+    "Application.NumToBit.executor": "Run",
+    "Application.PrintDecToBit.executor": "Run",
+    "Application.SimpleSort.executor": "Run",
+    "Application.Sort.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestDemo01.executor": "Run",
     "Application.WhileDemo01.executor": "Run",
@@ -82,13 +91,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Num32">
-    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suan.array.Bubble" />
+  <component name="RunManager" selected="Application.Sort">
+    <configuration name="DecimalToBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exception.DecimalToBit" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suan.array.*" />
+          <option name="PATTERN" value="com.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oop.Demo05.Num32" />
+    <configuration name="Mesom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exception.Mesom" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oop.Demo05.*" />
+          <option name="PATTERN" value="com.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.oop.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oop.Application" />
+    <configuration name="PrintDecToBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zuo.PrintDecToBit" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oop.*" />
+          <option name="PATTERN" value="com.zuo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.oop.Demo03.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oop.Demo03.Application" />
+    <configuration name="SimpleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.SimpleSort" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oop.Demo03.*" />
+          <option name="PATTERN" value="com.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.oop.Demo04.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oop.Demo04.Application" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zuo.Sort" />
       <module name="Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suan.array.*" />
+          <option name="PATTERN" value="com.zuo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Num32" />
-        <item itemvalue="Application.com.oop.Application" />
-        <item itemvalue="Application.Bubble" />
-        <item itemvalue="Application.com.oop.Demo04.Application" />
-        <item itemvalue="Application.com.oop.Demo03.Application" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.PrintDecToBit" />
+        <item itemvalue="Application.DecimalToBit" />
+        <item itemvalue="Application.SimpleSort" />
+        <item itemvalue="Application.Mesom" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +195,11 @@
       <workItem from="1708932679735" duration="2546000" />
       <workItem from="1708939053987" duration="3354000" />
       <workItem from="1708995481821" duration="6703000" />
-      <workItem from="1709011955605" duration="32709000" />
+      <workItem from="1709011955605" duration="41309000" />
+      <workItem from="1709696093727" duration="5484000" />
+      <workItem from="1709871080163" duration="20617000" />
+      <workItem from="1711413909215" duration="7573000" />
+      <workItem from="1711509546676" duration="12327000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -332,7 +345,71 @@
       <option name="project" value="LOCAL" />
       <updated>1709192943735</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Num32">
+      <option name="closed" value="true" />
+      <created>1709267582331</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709267582331</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Num32">
+      <option name="closed" value="true" />
+      <created>1709516041144</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709516041145</updated>
+    </task>
+    <task id="LOCAL-00021" summary="oop">
+      <option name="closed" value="true" />
+      <created>1709530241326</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709530241326</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Decimal">
+      <option name="closed" value="true" />
+      <created>1709799845757</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709799845757</updated>
+    </task>
+    <task id="LOCAL-00023" summary="NumToBit">
+      <option name="closed" value="true" />
+      <created>1710145284214</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710145284214</updated>
+    </task>
+    <task id="LOCAL-00024" summary="NumToBit">
+      <option name="closed" value="true" />
+      <created>1710404089415</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710404089415</updated>
+    </task>
+    <task id="LOCAL-00025" summary="zuo">
+      <option name="closed" value="true" />
+      <created>1710842349038</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710842349038</updated>
+    </task>
+    <task id="LOCAL-00026" summary="zuo">
+      <option name="closed" value="true" />
+      <created>1711509004069</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711509004069</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +439,12 @@
     <MESSAGE value="array" />
     <MESSAGE value="sparseArray" />
     <MESSAGE value="class" />
-    <option name="LAST_COMMIT_MESSAGE" value="class" />
+    <MESSAGE value="Num32" />
+    <MESSAGE value="oop" />
+    <MESSAGE value="Decimal" />
+    <MESSAGE value="NumToBit" />
+    <MESSAGE value="zuo" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -404,7 +486,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Basic/src/com/oop/Demo05/Num32.java</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
