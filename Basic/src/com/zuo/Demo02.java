@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class Demo02 {
     public static void main(String[] args) {
         int n = 100;
-        int t = 100000000;
+        int t = 1000000;
         experiment(n,t);
     }
 
