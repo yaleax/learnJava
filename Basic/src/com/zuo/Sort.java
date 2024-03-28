@@ -7,7 +7,8 @@ public class Sort {
         int [] arry = new int[]{4,9,5,6,7,8,2,3};
 
         //selectSort(arry);
-        bubbleSort(arry);
+        //bubbleSort(arry);
+        insertionSort(arry);
         System.out.println(Arrays.toString(arry));
     }
     public static void swap(int[] arr,int i,int j){
@@ -38,6 +39,16 @@ public class Sort {
                 if (arr[j] > arr[j +1]){
                     swap(arr,j,j+1);
                 }
+            }
+
+        }
+
+    }
+    public static void insertionSort (int[] arr){
+        for (int i = 1; i < arr.length; i++) {
+            for (int j = i-1; j >= 0 && arr[j] > arr[j+1]; j--) {
+                swap(arr,j,j + 1);
+                
             }
 
         }
