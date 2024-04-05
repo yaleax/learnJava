@@ -2,7 +2,14 @@ package com.exception;
 
 public class Demo01 {
     public static void main(String[] args) {
-        System.out.println(11/0);
+        int a = 10;
+        int b = 0;
+        try {
+            System.out.println(a/b);
+        } catch (Exception e) {
+            System.out.println("hello");
+        } finally {
+        }
     }
 
 }

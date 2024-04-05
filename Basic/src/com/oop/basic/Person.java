@@ -3,7 +3,7 @@ package com.oop.basic;
 public class Person {
 
     String name;
-    int age;
+    private int age;
     char gender;
 
     public void eat(){
@@ -15,5 +15,14 @@ public class Person {
     public  void interests(String hobby){
         System.out.println("我的爱好是" + hobby);
 
+    }
+    public void setAge(int age){
+        if (age < 0 || age > 100) {
+            throw new IllegalArgumentException("invalid age value");
+        }
+        this.age = age;
+    }
+    public int getAge(){
+        return this.age;
     }
 }
