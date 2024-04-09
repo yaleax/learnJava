@@ -18,7 +18,7 @@ class Calcultor extends Frame {
         t2 = new TextField(10);
         t3 = new TextField(20);
         Button b1 = new Button("=");
-        b1.addActionListener(new MyCalculatorListener(this));
+        b1.addActionListener(new MyCalculatorListener());
         Label l1 = new Label("+");
         setLayout(new FlowLayout());
 
@@ -31,23 +31,16 @@ class Calcultor extends Frame {
         setVisible(true);
 
     }
-}
-class MyCalculatorListener implements ActionListener{
+    class MyCalculatorListener implements ActionListener{
 
-    Calcultor calcultor =null;
+        @Override
+        public void actionPerformed(ActionEvent e) {
 
-    public MyCalculatorListener(Calcultor calcultor) {
-        this.calcultor = calcultor;
-
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
-        int n1 = Integer.parseInt(calcultor.t1.getText());
-        int n2 = Integer.parseInt(calcultor.t2.getText());
-        calcultor.t3.setText(""+(n1 + n2));
-        calcultor.t1.setText("");
-        calcultor.t2.setText("");
+            int n1 = Integer.parseInt(t1.getText());
+            int n2 = Integer.parseInt(t2.getText());
+            t3.setText(""+(n1 + n2));
+            t1.setText("");
+            t2.setText("");
+        }
     }
 }
