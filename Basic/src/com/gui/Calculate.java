@@ -6,16 +6,19 @@ import java.awt.event.ActionListener;
 
 public class Calculate {
     public static void main(String[] args) {
-        new Calcultor();
+        new Calcultor().loadFrame();
     }
 }
 class Calcultor extends Frame {
-    public Calcultor()  {
-        TextField t1 = new TextField(10);
-        TextField t2 = new TextField(10);
-        TextField t3 = new TextField(20);
+    //属性
+    TextField t1,t2,t3;
+    //方法
+    public void loadFrame(){
+        t1 = new TextField(10);
+        t2 = new TextField(10);
+        t3 = new TextField(20);
         Button b1 = new Button("=");
-        b1.addActionListener(new MyCalculatorListener(t1,t2,t3));
+        b1.addActionListener(new MyCalculatorListener(this));
         Label l1 = new Label("+");
         setLayout(new FlowLayout());
 
@@ -31,21 +34,20 @@ class Calcultor extends Frame {
 }
 class MyCalculatorListener implements ActionListener{
 
-    private TextField t1,t2,t3;
+    Calcultor calcultor =null;
 
-    public MyCalculatorListener(TextField t1,TextField t2,TextField t3) {
-        this.t1 = t1;
-        this.t2 = t2;
-        this.t3 = t3;
+    public MyCalculatorListener(Calcultor calcultor) {
+        this.calcultor = calcultor;
 
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        int n1 = Integer.parseInt(t1.getText());
-        int n2 = Integer.parseInt(t2.getText());
-        t3.setText(""+(n1 + n2));
-        t1.setText("");
-        t2.setText("");
+
+        int n1 = Integer.parseInt(calcultor.t1.getText());
+        int n2 = Integer.parseInt(calcultor.t2.getText());
+        calcultor.t3.setText(""+(n1 + n2));
+        calcultor.t1.setText("");
+        calcultor.t2.setText("");
     }
 }
